@@ -55,6 +55,7 @@
 }
 
 .logo_place_header {
+  left: 64px;
   top: 30px;
   position: absolute;
 }
@@ -65,6 +66,8 @@
   font-size: 102px;
   width: 730px;
   line-height: 96px;
+  margin: 0;
+  padding: 0;
 }
 
 .header__subtitle {
@@ -74,6 +77,7 @@
   font-size: 18px;
   font-style: normal;
   bottom: 30px;
+  left: 64px;
   margin: 0;
   position: absolute;
   font-weight: normal;
@@ -129,7 +133,7 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
 }
 
 .two-columns__paragraph {
